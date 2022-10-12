@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body
+{
+    font-family: Inter, Arial;
+    margin: 0;
+}
+
+main
+{
+    height: 100%;
+    width: 100%;
+}
+
+header
+{
+    background-color: lightcoral;
+    width: 100%;
+    height: 91px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.left
+{
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    height: 475px;
+}
+
+.right
+{
+    width: 50%;
+    float: left;
+    background-color: lightpink;
+    height: 475px;
+}
+
+input, button
+{
+    font-family: Inter, Arial;
+    font-weight: 400;
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+input
+{
+    width: 30%;
+    padding: 16px;
+    font-size: 20px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+button
+{
+    width: 25%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+button:hover
+{
+    background-color: rgb(217, 217, 217);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1
+{
+    font-size: 38px;
+}
+
+.right p, .left p
+{
+    font-size: 25px;
+}
+
+footer
+{
+    background-color: lightcoral;
+    width: 100%;
+    height: 91px;
+    clear: both;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+h1
+{
+    margin: 0;
+}
